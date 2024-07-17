@@ -12,6 +12,14 @@ def command_output(ip:str, command:str):
 def ls(ip:str, command:str):
     if ip not in data.keys():
         data[ip] = DynamicContentGenerator.generate_files()
-    return data[ip]
+
+    output = ""
+    keys = list(data[ip].keys())
+    for i in range(0, len(keys), 5):
+        line = keys[i:i + 5]
+        output += "  ".join(line) + "\n"
+
+    return output
+
 
 functions = {'ls': ls}
