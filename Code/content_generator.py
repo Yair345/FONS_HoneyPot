@@ -3,7 +3,7 @@ from logger import Logger
 import ipaddress
 import random
 import string
-
+from faker import Faker
 
 class IContentGenerator(ABC):
     @abstractmethod
@@ -22,12 +22,12 @@ class IContentGenerator(ABC):
 class DynamicContentGenerator(IContentGenerator):
     file_templates = {}
     command_outputs = {}
+    fake = Faker()
 
     @classmethod
     def generate_file_content(cls, file_type: str):
         pass
 
-    @classmethod
     @classmethod
     def generate_command_output(cls, command: str, os: str) -> str:
         if os not in cls.command_outputs.keys():
@@ -48,12 +48,10 @@ class DynamicContentGenerator(IContentGenerator):
     @classmethod
     def generate_files(cls, num_files=10):
         files = {}
-        extensions = ['.txt', '.log', '.cfg', '.dat', '.tmp']
+        extensions = ['txt', 'log', 'cfg', 'dat', 'tmp', 'py', 'md', 'csv', 'json', 'xml']
 
-        for _ in range(num_files):
-            name = ''.join(random.choices(string.ascii_lowercase, k=random.randint(3, 10)))
-            ext = random.choice(extensions)
-            filename = f"{name}{ext}"
+        for _ in range(random.randint(num_files - 5, num_files + 5)):
+            filename = cls.fake.file_name(extension=random.choice(extensions))
             files[filename] = ""
 
         return files
