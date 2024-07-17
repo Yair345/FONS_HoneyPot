@@ -1,0 +1,38 @@
+2024-07-17 16:13:37,164 - CentralManagementServer - INFO - Access point started
+2024-07-17 16:13:41,009 - CentralManagementServer - INFO - Received input: ssh
+2024-07-17 16:13:41,009 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Windows
+2024-07-17 16:13:48,932 - CentralManagementServer - INFO - Received input: nmap 10.7.3.86
+2024-07-17 16:13:56,929 - CentralManagementServer - INFO - Received input: ssh 10.7.3.89
+2024-07-17 16:13:56,929 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.89, OS: Linux
+2024-07-17 16:13:56,929 - CentralManagementServer - INFO - Connection established from 10.7.3.86 to 10.7.3.89
+2024-07-17 16:14:01,108 - CentralManagementServer - INFO - Received input: ls
+2024-07-17 16:14:01,114 - CentralManagementServer - INFO - Command executed on 10.7.3.89: ls
+2024-07-17 16:14:04,308 - CentralManagementServer - INFO - Received input: exit
+2024-07-17 16:14:05,913 - CentralManagementServer - INFO - Received input: ls
+2024-07-17 16:14:05,913 - CentralManagementServer - INFO - Command executed on 10.7.3.86: ls
+2024-07-17 16:14:08,942 - CentralManagementServer - INFO - Received input: exit
+2024-07-17 16:31:46,527 - CentralManagementServer - INFO - Access point started
+2024-07-17 16:31:49,154 - CentralManagementServer - INFO - Received input: ls
+2024-07-17 16:31:49,154 - CentralManagementServer - ERROR - No current server set
+2024-07-17 16:31:49,154 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Windows
+2024-07-17 16:31:51,247 - CentralManagementServer - INFO - Received input: ssh
+2024-07-17 16:31:51,247 - CentralManagementServer - ERROR - ssh: need to provide ip to connect
+2024-07-17 16:31:59,407 - CentralManagementServer - INFO - Received input: ssh 10.9.9.9
+2024-07-17 16:31:59,407 - CentralManagementServer - ERROR - ssh: connect to host 10.9.9.9 port 22: No route to host
+2024-07-17 16:32:19,154 - CentralManagementServer - INFO - Received input: nmap 10.7.3.86
+2024-07-17 16:32:35,916 - CentralManagementServer - INFO - Received input: ssh 10.7.0.13
+2024-07-17 16:32:35,916 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.0.13, OS: Windows
+2024-07-17 16:32:35,916 - CentralManagementServer - INFO - Connection established from 10.7.3.86 to 10.7.0.13
+2024-07-17 16:32:39,186 - CentralManagementServer - INFO - Received input: ls
+2024-07-17 16:32:52,248 - CentralManagementServer - INFO - Received input: ssh 10.7.4.240
+2024-07-17 16:32:52,248 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.4.240, OS: Linux
+2024-07-17 16:32:52,248 - CentralManagementServer - INFO - Connection established from 10.7.0.13 to 10.7.4.240
+2024-07-17 16:32:54,756 - CentralManagementServer - INFO - Received input: ls
+2024-07-17 16:33:03,192 - CentralManagementServer - INFO - Received input: ls
+2024-07-17 16:33:06,551 - CentralManagementServer - INFO - Received input: exit
+2024-07-17 16:33:13,016 - CentralManagementServer - INFO - Received input: exit
+2024-07-17 16:33:16,461 - CentralManagementServer - INFO - Received input: exit
+2024-07-17 16:33:16,461 - CentralManagementServer - ERROR - ERROR: Cannot exit from the root server
+2024-07-17 16:33:26,941 - CentralManagementServer - INFO - Received input: hg
+2024-07-17 16:33:26,942 - CentralManagementServer - ERROR - hg is not supported in our cmd
+2024-07-17 16:33:26,942 - CentralManagementServer - ERROR - Command execution error on 10.7.3.86: hg

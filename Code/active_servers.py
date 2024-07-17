@@ -1,5 +1,6 @@
 from virtual_server import IVirtualServer
 from VM_data import command_output
+from logger import Logger
 
 class ActiveServers:
 
@@ -21,11 +22,15 @@ class ActiveServers:
         if ip in self.servers.keys():
             self.current_server_ip = ip
         else:
-            raise ValueError(f"There is no server with ip {ip} in our net")
+            error_msg = f"There is no server with ip {ip} in our net"
+            Logger().log_activity(error_msg, "ERROR")
+            raise ValueError(error_msg)
 
     def get_current_server(self) -> IVirtualServer:
         if self.is_server_exist(self.current_server_ip):
             return self.servers[self.current_server_ip]
+        error_msg = "No current server set"
+        Logger().log_activity(error_msg, "ERROR")
         return None
 
     def is_server_exist(self, ip:str) -> bool:
