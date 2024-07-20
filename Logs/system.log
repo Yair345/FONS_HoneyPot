@@ -92,3 +92,53 @@
 2024-07-17 16:52:24,737 - CentralManagementServer - INFO - Received input: ls
 2024-07-17 16:52:29,527 - CentralManagementServer - INFO - Received input: exit
 2024-07-17 16:52:30,978 - CentralManagementServer - INFO - Received input: ls
+2024-07-19 18:57:12,655 - CentralManagementServer - INFO - Access point started
+2024-07-20 20:48:12,432 - CentralManagementServer - INFO - Access point started
+2024-07-20 20:51:10,079 - CentralManagementServer - INFO - Received input: nmap 10.7.3.86
+2024-07-20 20:51:10,079 - CentralManagementServer - ERROR - No current server set
+2024-07-20 20:51:10,079 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Windows
+2024-07-20 20:51:29,019 - CentralManagementServer - INFO - Received input: ls
+2024-07-20 20:51:34,835 - CentralManagementServer - INFO - Received input: ls
+2024-07-20 20:52:08,727 - CentralManagementServer - INFO - Received input: ssh 10.7.6.216
+2024-07-20 20:52:08,727 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.6.216, OS: Windows
+2024-07-20 20:52:08,727 - CentralManagementServer - INFO - Connection established from 10.7.3.86 to 10.7.6.216
+2024-07-20 20:52:48,067 - CentralManagementServer - INFO - Received input: ssh 10.7.17.6
+2024-07-20 20:52:48,067 - CentralManagementServer - ERROR - ssh: connect to host 10.7.17.6 port 22: No route to host
+2024-07-20 20:52:56,163 - CentralManagementServer - INFO - Received input: ls
+2024-07-20 20:53:04,637 - CentralManagementServer - INFO - Received input: exit
+2024-07-20 20:53:08,866 - CentralManagementServer - INFO - Received input: ls
+2024-07-20 22:51:00,648 - CentralManagementServer - INFO - Access point started
+2024-07-21 01:20:51,724 - CentralManagementServer - INFO - Received input: Í„
+2024-07-21 01:20:51,727 - CentralManagementServer - ERROR - No current server set
+2024-07-21 01:20:51,728 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Linux
+2024-07-21 01:20:51,728 - CentralManagementServer - ERROR - Í„ is not supported in our cmd
+2024-07-21 01:20:51,728 - CentralManagementServer - ERROR - Command execution error on 10.7.3.86: Í„
+2024-07-21 01:20:56,556 - CentralManagementServer - INFO - Received input: ls
+2024-07-21 01:21:06,028 - CentralManagementServer - INFO - Received input: nmap
+2024-07-21 01:21:06,028 - CentralManagementServer - ERROR - nmap: need to provide network address to search
+2024-07-21 01:21:15,222 - CentralManagementServer - INFO - Received input: nmap 10.7.3.86
+2024-07-21 01:21:37,487 - CentralManagementServer - INFO - Received input: ssh 10.7.1.11
+2024-07-21 01:21:37,488 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.1.11, OS: Windows
+2024-07-21 01:21:37,488 - CentralManagementServer - INFO - Connection established from 10.7.3.86 to 10.7.1.11
+2024-07-21 01:21:43,798 - CentralManagementServer - INFO - Received input: ls
+2024-07-21 01:21:50,812 - CentralManagementServer - INFO - Received input: ssh 10.7.3.86
+2024-07-21 01:21:50,813 - CentralManagementServer - ERROR - ssh: connect to host 10.7.3.86 port 22: No route to host
+2024-07-21 01:22:39,567 - CentralManagementServer - INFO - Received input: exit
+2024-07-21 01:23:42,854 - CentralManagementServer - INFO - Access point started
+2024-07-21 01:23:52,912 - CentralManagementServer - INFO - Received input: nmap 10.7.3.86
+2024-07-21 01:23:52,914 - CentralManagementServer - ERROR - No current server set
+2024-07-21 01:23:52,914 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Windows
+2024-07-21 01:25:14,616 - CentralManagementServer - INFO - Access point started
+2024-07-21 01:25:25,450 - CentralManagementServer - INFO - Received input: nmap 10.7.3.86
+2024-07-21 01:25:25,450 - CentralManagementServer - ERROR - No current server set
+2024-07-21 01:25:25,450 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Linux
+2024-07-21 01:25:52,624 - CentralManagementServer - INFO - Received input: ssh 10.7.7.143
+2024-07-21 01:25:52,624 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.7.143, OS: Windows
+2024-07-21 01:25:52,625 - CentralManagementServer - INFO - Connection established from 10.7.3.86 to 10.7.7.143
+2024-07-21 01:26:02,672 - CentralManagementServer - INFO - Received input: ssh 10.7.3.86
+2024-07-21 01:26:02,673 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Windows
+2024-07-21 01:26:02,673 - CentralManagementServer - INFO - Connection established from 10.7.7.143 to 10.7.3.86
+2024-07-21 01:26:05,582 - CentralManagementServer - INFO - Received input: ls
+2024-07-21 01:26:10,337 - CentralManagementServer - INFO - Received input: exit
+2024-07-21 01:26:12,873 - CentralManagementServer - INFO - Received input: exit
+2024-07-21 01:26:14,387 - CentralManagementServer - INFO - Received input: ls
