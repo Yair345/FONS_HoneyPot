@@ -92,3 +92,7 @@
 2024-07-17 16:52:24,737 - CentralManagementServer - INFO - Received input: ls
 2024-07-17 16:52:29,527 - CentralManagementServer - INFO - Received input: exit
 2024-07-17 16:52:30,978 - CentralManagementServer - INFO - Received input: ls
+2024-07-21 01:11:12,805 - CentralManagementServer - INFO - Access point started
+2024-07-21 01:11:16,577 - CentralManagementServer - INFO - Received input: ls
+2024-07-21 01:11:16,577 - CentralManagementServer - ERROR - No current server set
+2024-07-21 01:11:16,577 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Windows
