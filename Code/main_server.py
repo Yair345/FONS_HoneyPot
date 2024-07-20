@@ -25,7 +25,7 @@ class CentralManagementServer(ICentralManager):
         self.ip = ip
         self.mask = mask
         self.network = ipaddress.ip_network(f"{self.ip}/{self.mask}", strict=False)
-        self.optional_hosts = DynamicContentGenerator.generate_ip_addresses(self.network, number_of_hosts, [ip])
+        self.optional_hosts = DynamicContentGenerator.generate_ip_addresses(self.network, number_of_hosts, [ip]) + [ip]
         self.virtual_server_factory = VirtualServerFactory()
         self.active_servers = ActiveServers()
         self.servers_path = [ip]
