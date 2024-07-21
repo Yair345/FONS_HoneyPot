@@ -96,3 +96,38 @@
 2024-07-21 01:11:16,577 - CentralManagementServer - INFO - Received input: ls
 2024-07-21 01:11:16,577 - CentralManagementServer - ERROR - No current server set
 2024-07-21 01:11:16,577 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Windows
+2024-07-21 14:34:24,113 - CentralManagementServer - INFO - Access point started
+2024-07-21 14:34:27,579 - CentralManagementServer - INFO - Received input: ls
+2024-07-21 14:34:27,580 - CentralManagementServer - ERROR - No current server set
+2024-07-21 14:34:27,580 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Windows
+2024-07-21 14:34:30,564 - CentralManagementServer - INFO - Received input: nmap
+2024-07-21 14:34:30,565 - CentralManagementServer - ERROR - nmap: need to provide network address to search
+2024-07-21 14:34:40,868 - CentralManagementServer - INFO - Received input: nmap 10.7.3.86
+2024-07-21 14:34:50,118 - CentralManagementServer - INFO - Received input: ssh 10.7.2.227
+2024-07-21 14:34:50,119 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.2.227, OS: Windows
+2024-07-21 14:34:50,119 - CentralManagementServer - INFO - Connection established from 10.7.3.86 to 10.7.2.227
+2024-07-21 14:34:53,682 - CentralManagementServer - INFO - Received input: ls
+2024-07-21 14:35:00,851 - CentralManagementServer - INFO - Received input: nmap 10.7.2.227
+2024-07-21 14:35:49,263 - CentralManagementServer - INFO - Received input: ssh 10.7.3.86
+2024-07-21 14:35:49,263 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Linux
+2024-07-21 14:35:49,263 - CentralManagementServer - INFO - Connection established from 10.7.2.227 to 10.7.3.86
+2024-07-21 14:36:06,481 - CentralManagementServer - INFO - Received input: exit
+2024-07-21 14:36:09,814 - CentralManagementServer - INFO - Received input: exit
+2024-07-21 14:36:13,993 - CentralManagementServer - INFO - Received input: exit
+2024-07-21 14:36:13,993 - CentralManagementServer - ERROR - ERROR: Cannot exit from the root server
+2024-07-21 16:07:13,460 - CentralManagementServer - INFO - Access point started
+2024-07-21 16:07:52,465 - CentralManagementServer - INFO - Received input: ls
+2024-07-21 16:07:52,465 - CentralManagementServer - ERROR - No current server set
+2024-07-21 16:07:52,466 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.3.86, OS: Windows
+2024-07-21 16:09:28,320 - CentralManagementServer - INFO - Received input: nmap 10.7.3.86
+2024-07-21 16:10:38,931 - CentralManagementServer - INFO - Received input: ssh 10.7.1.45
+2024-07-21 16:10:38,931 - CentralManagementServer - INFO - New virtual server created - IP: 10.7.1.45, OS: Linux
+2024-07-21 16:10:38,931 - CentralManagementServer - INFO - Connection established from 10.7.3.86 to 10.7.1.45
+2024-07-21 16:10:55,208 - CentralManagementServer - INFO - Received input: ls
+2024-07-21 16:11:14,724 - CentralManagementServer - INFO - Received input: ssh 10.7.3.89
+2024-07-21 16:11:14,724 - CentralManagementServer - ERROR - ssh: connect to host 10.7.3.89 port 22: No route to host
+2024-07-21 16:11:26,935 - CentralManagementServer - INFO - Received input: exit
+2024-07-21 16:11:31,698 - CentralManagementServer - INFO - Received input: ls
+2024-07-21 16:11:39,931 - CentralManagementServer - INFO - Received input: nmap
+2024-07-21 16:11:39,931 - CentralManagementServer - ERROR - nmap: need to provide network address to search
+2024-07-21 16:11:49,217 - CentralManagementServer - INFO - Received input: nmap 10.7.3.86
